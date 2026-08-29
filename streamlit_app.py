@@ -12,9 +12,12 @@ action = st.menu_button(lable, options=["PL do Estupro", "PEC da Blindagem", "PE
 if action == "PL do Estupro":
     st.write("Exporting as CSV...")
     lable = "PL do Estupro"
+    st.menu_button(lable)
 elif action == "PEC da Blindagem":
     st.write("Exporting as JSON...")
     lable = "PEC da Blindagem"
+    st.menu_button(lable)
 elif action == "PEC da Pedofilia":
     st.write("Exporting as PDF...")
     lable = "PEC da Pedofilia"
+    st.menu_button(lable)
